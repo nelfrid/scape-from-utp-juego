@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 47163464d0cc6ae47ae340d50f96199b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2366923746022097473
+    second: spritesheet - P1 Jorge +_0
+  - first:
+      213: 3628262186461718294
+    second: spritesheet - P1 Jorge +_1
+  - first:
+      213: 1132098505287206360
+    second: spritesheet - P1 Jorge +_2
+  - first:
+      213: -7232007594604510780
+    second: spritesheet - P1 Jorge +_3
+  - first:
+      213: 3658233318399222186
+    second: spritesheet - P1 Jorge +_4
+  - first:
+      213: 2765790943905125303
+    second: spritesheet - P1 Jorge +_5
+  - first:
+      213: 1937763392539067290
+    second: spritesheet - P1 Jorge +_6
+  - first:
+      213: 2548070140367569731
+    second: spritesheet - P1 Jorge +_7
+  - first:
+      213: -4585150159851428984
+    second: spritesheet - P1 Jorge +_8
+  - first:
+      213: 8933202411384200248
+    second: spritesheet - P1 Jorge +_9
+  - first:
+      213: -7556912505821167107
+    second: spritesheet - P1 Jorge +_10
+  - first:
+      213: -8145906574280296136
+    second: spritesheet - P1 Jorge +_11
+  - first:
+      213: -8371677933700151165
+    second: spritesheet - P1 Jorge +_12
+  - first:
+      213: 1863573889023834204
+    second: spritesheet - P1 Jorge +_13
+  - first:
+      213: -3937625696811391721
+    second: spritesheet - P1 Jorge +_14
+  - first:
+      213: 8424378253214508207
+    second: spritesheet - P1 Jorge +_15
+  - first:
+      213: -4110478261069124941
+    second: spritesheet - P1 Jorge +_16
+  - first:
+      213: 5888663046869720414
+    second: spritesheet - P1 Jorge +_17
+  - first:
+      213: 5049016345855309967
+    second: spritesheet - P1 Jorge +_18
+  - first:
+      213: 4200492880773137583
+    second: spritesheet - P1 Jorge +_19
+  - first:
+      213: 7811857320786736485
+    second: spritesheet - P1 Jorge +_20
+  - first:
+      213: -4136694491241867633
+    second: spritesheet - P1 Jorge +_21
+  - first:
+      213: 6562143395081305539
+    second: spritesheet - P1 Jorge +_22
+  - first:
+      213: 1851280949213035903
+    second: spritesheet - P1 Jorge +_23
+  - first:
+      213: -2362952692450473045
+    second: spritesheet - P1 Jorge +_24
+  - first:
+      213: 2805237793324734336
+    second: spritesheet - P1 Jorge +_25
+  - first:
+      213: 9047618814440529224
+    second: spritesheet - P1 Jorge +_26
+  - first:
+      213: 6700150693437445893
+    second: spritesheet - P1 Jorge +_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 731
+        width: 95
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd7aebb46ff62fd0800000000000000
+      internalID: -2366923746022097473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 731
+        width: 96
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61768083c3d2a5230800000000000000
+      internalID: 3628262186461718294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 730
+        width: 97
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5056aa79506bf00800000000000000
+      internalID: 1132098505287206360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 730
+        width: 107
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1cba6d86fb2ab90800000000000000
+      internalID: -7232007594604510780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 730
+        width: 117
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa12fa822d7a4c230800000000000000
+      internalID: 3658233318399222186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 730
+        width: 115
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3157ea530126620800000000000000
+      internalID: 2765790943905125303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_6
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 730
+        width: 112
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a930c0fe98154ea10800000000000000
+      internalID: 1937763392539067290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 730
+        width: 148
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343836bda409c5320800000000000000
+      internalID: 2548070140367569731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_8
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 730
+        width: 147
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883ea3809364e50c0800000000000000
+      internalID: -4585150159851428984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_9
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 744
+        width: 147
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cd735534c19fb70800000000000000
+      internalID: 8933202411384200248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_10
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 730
+        width: 107
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df182db3d14702790800000000000000
+      internalID: -7556912505821167107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 401
+        width: 123
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839f08a212de3fe80800000000000000
+      internalID: -8145906574280296136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 442
+        width: 130
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38883db3643d1db80800000000000000
+      internalID: -8371677933700151165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 401
+        width: 107
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5875f3149ebcd910800000000000000
+      internalID: 1863573889023834204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 421
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7156b1b8a4eba59c0800000000000000
+      internalID: -3937625696811391721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_15
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 413
+        width: 128
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa46064136769e470800000000000000
+      internalID: 8424378253214508207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 401
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba6200ccc5a4f6c0800000000000000
+      internalID: -4110478261069124941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_17
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 412
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d93a677dbb8b150800000000000000
+      internalID: 5888663046869720414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_18
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 401
+        width: 53
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88b8df9d95b11640800000000000000
+      internalID: 5049016345855309967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_19
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 401
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa44a0815062b4a30800000000000000
+      internalID: 4200492880773137583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_20
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 401
+        width: 77
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565378128da496c60800000000000000
+      internalID: 7811857320786736485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_21
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 401
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86963107428796c0800000000000000
+      internalID: -4136694491241867633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_22
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 401
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd3ffc66aa611b50800000000000000
+      internalID: 6562143395081305539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_23
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 249
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d7a4df63211b910800000000000000
+      internalID: 1851280949213035903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_24
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 219
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babcf61bb0b153fd0800000000000000
+      internalID: -2362952692450473045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_25
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 61
+        width: 136
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0871f9509e43ee620800000000000000
+      internalID: 2805237793324734336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_26
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 61
+        width: 122
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d5ed910699f8d70800000000000000
+      internalID: 9047618814440529224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet - P1 Jorge +_27
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 59
+        width: 250
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5071de78e87bbfc50800000000000000
+      internalID: 6700150693437445893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 341da5adfb7276343936cb50c524ad91
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":3.0},"gridSpriteSize":{"x":153.0,"y":341.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spritesheet - P1 Jorge +_0: -2366923746022097473
+      spritesheet - P1 Jorge +_1: 3628262186461718294
+      spritesheet - P1 Jorge +_10: -7556912505821167107
+      spritesheet - P1 Jorge +_11: -8145906574280296136
+      spritesheet - P1 Jorge +_12: -8371677933700151165
+      spritesheet - P1 Jorge +_13: 1863573889023834204
+      spritesheet - P1 Jorge +_14: -3937625696811391721
+      spritesheet - P1 Jorge +_15: 8424378253214508207
+      spritesheet - P1 Jorge +_16: -4110478261069124941
+      spritesheet - P1 Jorge +_17: 5888663046869720414
+      spritesheet - P1 Jorge +_18: 5049016345855309967
+      spritesheet - P1 Jorge +_19: 4200492880773137583
+      spritesheet - P1 Jorge +_2: 1132098505287206360
+      spritesheet - P1 Jorge +_20: 7811857320786736485
+      spritesheet - P1 Jorge +_21: -4136694491241867633
+      spritesheet - P1 Jorge +_22: 6562143395081305539
+      spritesheet - P1 Jorge +_23: 1851280949213035903
+      spritesheet - P1 Jorge +_24: -2362952692450473045
+      spritesheet - P1 Jorge +_25: 2805237793324734336
+      spritesheet - P1 Jorge +_26: 9047618814440529224
+      spritesheet - P1 Jorge +_27: 6700150693437445893
+      spritesheet - P1 Jorge +_3: -7232007594604510780
+      spritesheet - P1 Jorge +_4: 3658233318399222186
+      spritesheet - P1 Jorge +_5: 2765790943905125303
+      spritesheet - P1 Jorge +_6: 1937763392539067290
+      spritesheet - P1 Jorge +_7: 2548070140367569731
+      spritesheet - P1 Jorge +_8: -4585150159851428984
+      spritesheet - P1 Jorge +_9: 8933202411384200248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
