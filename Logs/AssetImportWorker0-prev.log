@@ -1,0 +1,577 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.11f1 (b0a1d6caadd2) revision 11575766'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 7975 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-22T01:55:36Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Oswel Cardona" at "2026-06-22T01:55:36.4875279Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Unity Editors\6000.4.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Oswel Cardona/OneDrive/Documents/GitHub/scape-from-utp-juego
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54428
+-licensingIpc
+LicenseClient-Oswel Cardona
+-force-d3d12
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Oswel Cardona/OneDrive/Documents/GitHub/scape-from-utp-juego
+C:/Users/Oswel Cardona/OneDrive/Documents/GitHub/scape-from-utp-juego
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [33280]  Target information:
+
+Player connection [33280]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 3422057084 [EditorId] 3422057084 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5D6TS9H6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33280] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33280] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.11f1 (b0a1d6caadd2)
+[Subsystems] Discovering subsystems at path C:/Unity Editors/6000.4.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Oswel Cardona/OneDrive/Documents/GitHub/scape-from-utp-juego/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:          NVIDIA
+    VRAM:            3952 MB
+    App VRAM Budget: 3359 MB
+    Driver:          31.0.15.2904
+Initialize mono
+Mono path[0] = 'C:/Unity Editors/6000.4.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity Editors/6000.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity Editors/6000.4.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity Editors/6000.4.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004111 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1536ms
+	BeginReloadAssembly (332ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (329ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (372ms)
+				TypeCache.ScanAssembly (337ms)
+	FinalizeReload (605ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Oswel Cardona"
+[Licensing::IpcConnector] LicenseClient-Oswel Cardona channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Oswel Cardona-6000.4.11" at "2026-06-22T01:55:39.5924055Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 33940, path: "C:/Unity Editors/6000.4.11f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              fbc1eefa658440029fc8ea77973d09f0
+  Correlation Id:          3327e2d69abae47ca7568e9147c2df7c
+  External correlation Id: 8862390728871097185
+  Machine Id:              yDNq2MjD93GEw1et6cEFPmy2bPQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Oswel Cardona-6000.4.11" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Oswel Cardona-6000.4.11-notifications" at "2026-06-22T01:55:39.6092542Z"
+[Licensing::Module] Licensing Background thread has ended after 3.12s
+[Licensing::Module] Licensing is initialized (took 0.26s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674213237775-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 2062ms
+	BeginReloadAssembly (877ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (42ms)
+		LoadAssemblies (379ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (4ms)
+	FinalizeReload (915ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (277ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (30.2 KB). Loaded Objects now: 663.
+Memory consumption went from 63.3 MB to 63.3 MB.
+Total: 6.536900 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.016400 ms MarkObjects: 6.170700 ms  DeleteObjects: 0.213300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106924.617438 seconds.
+  path: Assets/Personaje 1/Personaje_1.unity
+  importAddress: Guid(63185164538dc424abfb07c650059117) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Personaje 1/Personaje_1.unity using Guid(63185164538dc424abfb07c650059117) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e35bc8dcae07594ccc4ed64074e74feb') in 0.1109822 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=daabf1cd012dfcb9b9e3c2502397738e DependenciesID=c3d9478955786de5055f473d304e5b44 StaticDependenciesID=0a31836eda8b6778f71322d6a3a16224 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Personaje 1/spritesheet - P1 Jorge +_3.controller
+  importAddress: Guid(7f097f71eabe08b4bb294f08e9b50ec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Personaje 1/spritesheet - P1 Jorge +_3.controller using Guid(7f097f71eabe08b4bb294f08e9b50ec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '354a4727508334b4bb127debd7f06839') in 0.033236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1581ac570a04c1c4dc325f69f5a1b610 DependenciesID=b34dbb5c5438b6d090c8085ae9732b78 StaticDependenciesID=b3f1c528818acaf2a83aa4d275dde082 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Personaje 1/spritesheet - P1 Jorge +_25.controller
+  importAddress: Guid(7343abbd168937840b4105648c331795) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Personaje 1/spritesheet - P1 Jorge +_25.controller using Guid(7343abbd168937840b4105648c331795) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6083166ff5a3c27c81fd593f010604c8') in 0.0276846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c8b7d060e7d3fbc17392eeea75b742d DependenciesID=50b0b8fac5ff544dc8eaee30dd52df79 StaticDependenciesID=8ef7940eb5a9de7ed179ba23f907d0d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Personaje 1/spritesheet - P1 Jorge +_0 1.controller
+  importAddress: Guid(3d59ad6cc35022341ba44ddb16c28116) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Personaje 1/spritesheet - P1 Jorge +_0 1.controller using Guid(3d59ad6cc35022341ba44ddb16c28116) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6650a0196cfdb49b82239cc5e9278ca') in 0.0311967 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4976e14da1d4a43d1fa2d296cafe03a8 DependenciesID=368042eea36ce35e30fcaee77734b024 StaticDependenciesID=12fd23f5708643c274cc610984e6795d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Personaje 1/spritesheet - P1 Jorge +.png
+  importAddress: Guid(47163464d0cc6ae47ae340d50f96199b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Personaje 1/spritesheet - P1 Jorge +.png using Guid(47163464d0cc6ae47ae340d50f96199b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db7188e76e7a263174937c54da3b02e5') in 0.2145412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=262e77b0b9f6874203055aa92368f9b9 DependenciesID=8bf14b2e6bf5c1d3345d020086889c21 StaticDependenciesID=b4ca83145394253140fd216302e01083 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.142380 seconds.
+  path: Assets/Personaje 1/Personaje_1.unity
+  importAddress: Guid(63185164538dc424abfb07c650059117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje 1/Personaje_1.unity using Guid(63185164538dc424abfb07c650059117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'eaac2c0ff99a94c74fce9e9e77d415e0') in 0.0007033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55b3b6140f09f74be98ad729ef315ba0 DependenciesID=f6b91076453c7e5303fda6d2c56d31de StaticDependenciesID=5b543fd9ffb1a3de1d0859c4d5362d24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.939370 seconds.
+  path: Assets/Scripts
+  importAddress: Guid(1229d781143f9554fa7e799203edebb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(1229d781143f9554fa7e799203edebb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6b6e7146e6c21534402322db221b3b69') in 0.0010966 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a5b277cd81238ca77dd0f485cbdc923 DependenciesID=218577f8fe0b625c3aa6ae32b87770b8 StaticDependenciesID=0da7d2fefad1aa21840c74b61b796ada 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 931.533596 seconds.
+  path: Assets/3 PERSONAJES/Jugador.prefab
+  importAddress: Guid(715b0b9b9a7a6c04cb5167d82049df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 PERSONAJES/Jugador.prefab using Guid(715b0b9b9a7a6c04cb5167d82049df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '64b9acc15a397b4f14d7f94d7b621154') in 0.3655808 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e91b8aa87811c7c1d5948cd7328c9305 DependenciesID=23a70fc006e51354b71870af3e0846e8 StaticDependenciesID=d02160515dd5a1350ffe0a90b4e8216d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508453 seconds.
+  path: Assets/3 PERSONAJES/Jugador.prefab
+  importAddress: Guid(715b0b9b9a7a6c04cb5167d82049df34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Jugador.prefab using Guid(715b0b9b9a7a6c04cb5167d82049df34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd01f5d47b4e0ee2ec3ee31c82335564d') in 0.0516781 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0345ba0b55853158b765c24651df65c6 DependenciesID=44924ed521294b56c789717d360591e4 StaticDependenciesID=a9c7a45e88e60ac246e843295c1c4608 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.321241 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge
+  importAddress: Guid(15eb8bbc51331a74a913b674dfedbfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge using Guid(15eb8bbc51331a74a913b674dfedbfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5f6b88f1a3657deb988cbc4951f82dd1') in 0.0008098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f5854373f4af081776d222cad35e3bd DependenciesID=6581be858d2fd7ba5c99f3883520b7d1 StaticDependenciesID=7a4ce0b4ebeecbcea138d3c575041a18 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.980822 seconds.
+  path: Assets/Fondos/Nivel 1.unity
+  importAddress: Guid(5312039f7d992ba45b519fcd6bef2a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fondos/Nivel 1.unity using Guid(5312039f7d992ba45b519fcd6bef2a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b1a871a4a707a1ea94531a080d5e056c') in 0.0007459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1b8ad9d1d22d9af943657acd68ae1b5 DependenciesID=a408ce0956f9120df6a96966efac6be4 StaticDependenciesID=0048566ba974ce986137343811617e4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970732 seconds.
+  path: Assets/Fondos/Nivel 1.unity
+  importAddress: Guid(5312039f7d992ba45b519fcd6bef2a62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fondos/Nivel 1.unity using Guid(5312039f7d992ba45b519fcd6bef2a62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1596c06cce9d6358a10eaaa672ec5d9a') in 0.0167189 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cac17699bf059cd0971f0cf09669b60 DependenciesID=6d7b4f51cd124e6597fa703ea6495ded StaticDependenciesID=234f141f22400569838e62b0966f9c10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.344237 seconds.
+  path: Assets/Suelos
+  importAddress: Guid(76aa884e8860d3943aa9a963621bb26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suelos using Guid(76aa884e8860d3943aa9a963621bb26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b8280f92d5862528f22b13aac0efc8e1') in 0.0009135 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7bbdaa20aa03a9f844796bea489777d2 DependenciesID=2c2c950be8f318b51d9dc1febd187a5a StaticDependenciesID=9e2050f63fc27dc654f20d2156691fa6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 972ms
+	BeginReloadAssembly (364ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (25ms)
+		LoadAssemblies (180ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (447ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 KB). Loaded Objects now: 677.
+Memory consumption went from 64.4 MB to 64.4 MB.
+Total: 3.654200 ms (FindLiveObjects: 0.055200 ms CreateObjectMapping: 0.007100 ms MarkObjects: 3.556800 ms  DeleteObjects: 0.033000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 262.502993 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel
+  importAddress: Guid(be1f961f042ac524180565207001fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel using Guid(be1f961f042ac524180565207001fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2349922d7004c334112cc44ba94ae908') in 0.0031701 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61765375285374cfa332281a17bf8515 DependenciesID=52acf0d873f0b8bea7cf4c6f783a06ee StaticDependenciesID=e14592653d5e3ef901d9b3e85ecf1bc3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.355755 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel/dead_ariel.ase
+  importAddress: Guid(ababc77ff1934c14fa96fa7196f3989f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel/dead_ariel.ase using Guid(ababc77ff1934c14fa96fa7196f3989f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd97fcccf3bc230096ad7d12484258be') in 0.1034036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65a71dad61bbb447058e617424fd435b DependenciesID=ba85394885f72ca6c50b2ea78d932d8c StaticDependenciesID=0017f8f615166c06db28b3007143dada 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel/PREFABS/run_ariel.prefab
+  importAddress: Guid(9f5c691f5246b854b80787ef2bdf699f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel/PREFABS/run_ariel.prefab using Guid(9f5c691f5246b854b80787ef2bdf699f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd4246fe96136f91e82a3b303289e5962') in 0.0390049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ccb589017233d40034f0d8c3efa6856d DependenciesID=fc98b1a93a05f11ee1ea341297f1e711 StaticDependenciesID=12f14ee25441409728af78fecdfec889 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel/idle_ariel.ase
+  importAddress: Guid(5eb2ec20d8311d0489cce4638c600568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel/idle_ariel.ase using Guid(5eb2ec20d8311d0489cce4638c600568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c6313eecef24e477bf2dc19c4f7fbc2b') in 0.0250823 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a94f0720c99a45ed505b09652377336 DependenciesID=b53301698565064f8da2ef839957e279 StaticDependenciesID=d70d03e3caecdef52c0339c63cf22362 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel
+  importAddress: Guid(be1f961f042ac524180565207001fb88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel using Guid(be1f961f042ac524180565207001fb88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c7b8c92eeae223bfa256ec17597f405') in 0.0235479 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b47f4deb8da8ee8d528fe7a4e3d269af DependenciesID=947f35f2e5e0ddcc59e2ed3738191e28 StaticDependenciesID=4becb3fcea425528d65ce341df565590 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Fondos/FondoGenralIng.jpeg
+  importAddress: Guid(362380fe4f430494c93639d483ee1fc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fondos/FondoGenralIng.jpeg using Guid(362380fe4f430494c93639d483ee1fc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f0be44faedae29b6ac45fae5d459daad') in 0.1297508 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37be5b538e41130d7733f6e62c876b79 DependenciesID=9027742a7f73be12e13cf4ab97d4bd10 StaticDependenciesID=c7fd1273b5707769f0eacc6977f16dbd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Rolando/modelo_rolando.ase
+  importAddress: Guid(d2301c414e268ba468e9a001f7125f6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Rolando/modelo_rolando.ase using Guid(d2301c414e268ba468e9a001f7125f6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4af8f52352945293a9c3c0d01073a374') in 0.0135623 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9646316c47bcf4601c91359c36768d96 DependenciesID=ee3fd67c0237713efd57f50de44f5436 StaticDependenciesID=5354d7f3447eb1f18cc9a69a1cfac5d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Fondos/FondoSistemas (1).jpeg
+  importAddress: Guid(8a6dad9eed4678646b422ef504eb90bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fondos/FondoSistemas (1).jpeg using Guid(8a6dad9eed4678646b422ef504eb90bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '75f53f6aa77fa026393a67791921ec0b') in 0.0413163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cebcef523db36b71590ba06cfec927ab DependenciesID=583f9c6c1895e60a2da11db1b4a85a57 StaticDependenciesID=f95c9baef068fe9534a9037734aeb2cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/ControladorJugador.cs
+  importAddress: Guid(43ffde31df9b22f42a585d6ec2720e73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ControladorJugador.cs using Guid(43ffde31df9b22f42a585d6ec2720e73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e42fb836f817415a1f08140810a14f2') in 0.0238806 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70685b1c81e07db8816216430b04d7e5 DependenciesID=8b7a58ff068ff4cd9c18b041cfe60354 StaticDependenciesID=cae48a3a653bb3ed3d4e102b74b95281 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge/dead_base.ase
+  importAddress: Guid(e5ec708d962b2d44d93c7a67a234c70b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge/dead_base.ase using Guid(e5ec708d962b2d44d93c7a67a234c70b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86244f001e2aa4868d5db31f0ea9b74d') in 0.0243961 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60d57960bdc56472623ec4316b77bf47 DependenciesID=bee8679d1f42950e46437173a1a15ccf StaticDependenciesID=57d9f657a3bd4b6ec12e8c2b5059fc43 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001687 seconds.
+  path: Assets/Fondos/FondoCivil.jpeg
+  importAddress: Guid(e07d89d39c562fe4588cb18cee907368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fondos/FondoCivil.jpeg using Guid(e07d89d39c562fe4588cb18cee907368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9c34119b78dd8a5a7ab3367757f776c') in 0.0413063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=978741fcc9c463e712b863c0f127d372 DependenciesID=547510398d2f7e66147f141734cd70d3 StaticDependenciesID=4610b81b93f217b369beac7f146b4dbd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Scripts/ObstaculoDanino.cs
+  importAddress: Guid(c945a625f3c668d4d813c3cfc9011cf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ObstaculoDanino.cs using Guid(c945a625f3c668d4d813c3cfc9011cf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95a961c79b25726ec4228d440ee5ec87') in 0.0216456 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90e7716b3331902834bbc649ace5d4e5 DependenciesID=7a4daa8198bd81bea3f0f268d3558591 StaticDependenciesID=1e3186db93472cb8c797a22984a8e22e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge/PREFABS/dead_base.prefab
+  importAddress: Guid(7deafbec0df36384da901aebc0dbf6ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge/PREFABS/dead_base.prefab using Guid(7deafbec0df36384da901aebc0dbf6ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6ba9c9bc2ca16cefa2ac6d853d5bd573') in 0.0232757 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b05fc5fa6f9a48d3f5ebac97ce6b5ea DependenciesID=571dfc1960d4a533a9ebb1bf731464f5 StaticDependenciesID=0f8cf035427083c2788d5ad67b2b12d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge/PREFABS/idle_base.prefab
+  importAddress: Guid(e3fc4de44c47bc644ad8ae6f175aaf03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge/PREFABS/idle_base.prefab using Guid(e3fc4de44c47bc644ad8ae6f175aaf03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '543123a44b9b8f4bfe15a89b594e9b0a') in 0.0205213 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6e9360e8324ff8422d554a6531bb433 DependenciesID=9d8273e657da5d39fae61ab0fb6dbba7 StaticDependenciesID=b314bd5a33820ce8c6e05b348b4abc23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel/PREFABS
+  importAddress: Guid(2299b2635ceb71141be3e20e8faf42e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel/PREFABS using Guid(2299b2635ceb71141be3e20e8faf42e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '145ddf14e2c310ebeba1122aeb05c5a3') in 0.0188178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eec2983d756cbdcfc27370f08bbe8d2e DependenciesID=1fb2e6b63895b509cf338e0330bbc4a8 StaticDependenciesID=5092e383931b3ec8db041faf6ff31f81 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge
+  importAddress: Guid(e96f653752f66994ba06b6f071d3588c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge using Guid(e96f653752f66994ba06b6f071d3588c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dac17c78f9223960d2906dbaafd2ec6e') in 0.02068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=002ee61af9846a0a403e070ef023e28e DependenciesID=a5b36c78e0b0357ada7c6a9ca4bac8a9 StaticDependenciesID=79309f0a6359204b0b364acd7f33fa5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Fondos/FondoBiblioteca.jpeg
+  importAddress: Guid(f6bb27aaeed6e7c4f85cb651d51e4b8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fondos/FondoBiblioteca.jpeg using Guid(f6bb27aaeed6e7c4f85cb651d51e4b8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a3977e39a0b23cded75d669d1c594021') in 0.029126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c5d47b8444051fc6c4e58dd69557e2c DependenciesID=3e576628c1aa6ed6d7f358de163ec76d StaticDependenciesID=0300bd3bcd6461ce1c2e65d81932dd83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge/idle_base.ase
+  importAddress: Guid(14919c6eb1d053a41a9764316c1b3309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge/idle_base.ase using Guid(14919c6eb1d053a41a9764316c1b3309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa1ec379c8361b4ac231055b87972b39') in 0.0200608 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=348e6bae8361843ac8343847ca1983d2 DependenciesID=310b8206dfceabfe1ebe76da13228f33 StaticDependenciesID=41f7154f4b8335c3bcb42f27f0e8af0b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Rolando/jump_rolando.ase
+  importAddress: Guid(396e0a62b84992148b74606dac4bdb13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Rolando/jump_rolando.ase using Guid(396e0a62b84992148b74606dac4bdb13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1fd13dc4ba293a5f7c2cc33d8490d06') in 0.0279048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c97c9b6027519bb8fcf17d7166649d86 DependenciesID=17ff6c7e44d47da1a57550d3f2301e93 StaticDependenciesID=9c59a32cb93ccd8811eff2dd79880171 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Rolando/PREFABS/run_rolando.prefab
+  importAddress: Guid(6d983c4087531a04c88bc0bb001eeeec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Rolando/PREFABS/run_rolando.prefab using Guid(6d983c4087531a04c88bc0bb001eeeec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c4d641b35183c7c8617c66b45fa5cbba') in 0.0310144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74f1ef976e8295b755d4673b43af2b62 DependenciesID=1bd122409963cdab2819ce3dde68ab4a StaticDependenciesID=4735a1f284347afaf0df38632330a3d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Rolando/PREFABS
+  importAddress: Guid(eb5e65b4e4384854d85e8f8cf1a0b009) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Rolando/PREFABS using Guid(eb5e65b4e4384854d85e8f8cf1a0b009) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7fe0c9028339242f0dace0edc7195b32') in 0.0243585 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=608df50123ede49231f4d2f32696928f DependenciesID=d7b9d22ccde8f690df327d5b1fbc973b StaticDependenciesID=b484c7554fa3c510e03bde4003e7d8b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Jorge/PREFABS/run_base.prefab
+  importAddress: Guid(d279f3689d68e2540b8ac5cd100a11ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Jorge/PREFABS/run_base.prefab using Guid(d279f3689d68e2540b8ac5cd100a11ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4eb31927a686ba0d68107ace41b0234e') in 0.0261207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ed3c2e1ab8d2aad8a7f8aebbfbb76e3 DependenciesID=ed5532721709d3d37ce9f84ee1800a70 StaticDependenciesID=bc3db11115a6a0c68dff58efd2c265dd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel/PREFABS/jump_ariel.prefab
+  importAddress: Guid(3464c3e5ee361fe4880dc7f581c02365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel/PREFABS/jump_ariel.prefab using Guid(3464c3e5ee361fe4880dc7f581c02365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fadf06b571b3efc35f6aa086f50b0b6d') in 0.0297712 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=301f6d8bfa7a2c5ffb18949fac3ccd86 DependenciesID=cb6b12a1c97691cecd6fcae38aab3066 StaticDependenciesID=2a9ee2b1075104f5e2b3e48f717d242d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Ariel/damage_ariel.ase
+  importAddress: Guid(3f5fffc596c787b4095845705ab86e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Ariel/damage_ariel.ase using Guid(3f5fffc596c787b4095845705ab86e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d29d6cdd5f56e2554bc8a7c92dd080a') in 0.0227249 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d56e36c95c94c6739558e744d4b7d56 DependenciesID=4bde03cdc76ee4fb725d62045633a722 StaticDependenciesID=a755b30fc023387331cbd0dd99c063ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Rolando/dead_rolando.ase
+  importAddress: Guid(256fcea67b9baf142baa6ebffad98a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Rolando/dead_rolando.ase using Guid(256fcea67b9baf142baa6ebffad98a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70c83ab08a8006bb13f3eb620498e83d') in 0.0252065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dead5f9d829f0ccff7f498a7df51333f DependenciesID=d50a309a37280b020fe455c5987f4e18 StaticDependenciesID=fccc9671f96be00591c3a284d9aaa9b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3 PERSONAJES/Personaje - Rolando/PREFABS/dead_rolando.prefab
+  importAddress: Guid(987e9440be2a5704487df23870171bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3 PERSONAJES/Personaje - Rolando/PREFABS/dead_rolando.prefab using Guid(987e9440be2a5704487df23870171bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad111605659aa43586826f3721df85f0') in 0.0216093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b619e052cbcf32dcb61cb55db970be1d DependenciesID=aa8032ab9e6fb4ec70384cf6bc5ad421 StaticDependenciesID=f471630682d01b15421ed11ed66648ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
