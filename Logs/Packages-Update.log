@@ -40,3 +40,13 @@ The following packages were added:
   com.unity.modules.xr@1.0.0
   com.unity.modules.accessibility@1.0.0
   com.unity.multiplayer.center@1.0.1
+
+=== Wed Jun 24 21:13:29 2026
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.physicscore2d@1.0.0
+The following packages were removed:
+  com.unity.modules.vr@1.0.0

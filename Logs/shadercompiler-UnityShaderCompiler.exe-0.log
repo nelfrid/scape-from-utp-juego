@@ -1,5 +1,4 @@
-Base path: 'C:/Unity Editors/6000.4.11f1/Editor/Data', plugins path 'C:/Unity Editors/6000.4.11f1/Editor/Data/PlaybackEngines', jobs: y
+Base path: 'C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/PlaybackEngines', jobs: y
 Cmd: initializeCompiler
 
-Cmd: initializeCompiler
-
+Cmd: shutdown
