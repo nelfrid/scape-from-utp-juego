@@ -29,6 +29,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.ugui@2.5.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "C:\\Users\\rolan\\OneDrive\\Documentos\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.ugui@4f9b15fd1386",
+      "fingerprint": "4f9b15fd13868276678fd95a5e0f7c029c70616a",
+      "editorCompatibility": "6000.5.0a1",
+      "version": "2.5.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
