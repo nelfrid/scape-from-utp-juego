@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b54c6e48f346d04fa2fb5dc49b18ccd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - componentImageButtonSonido: {instanceID: 0}
+  - iconoSonidoActivo: {fileID: 4609730394388536982, guid: 13ce1a97130a2634f87a327eda9f4b37, type: 3}
+  - iconoSonidoInactivo: {fileID: 3096640195106984009, guid: 296f4945173b24d41b1f967a50a4e0e3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Users/Oswel Cardona/OneDrive/Documents/GitHub/scape-from-utp-juego/Packages",
+    "projectPath": "C:/Users/Nicole-David/scape-from-utp-juego/Packages",
     "unityVersion": "6000.5.0f1"
   },
   "inputs": [
-    "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Packages\\manifest.json",
-    "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Packages\\packages-lock.json",
-    "C:\\Unity Editors\\6000.5.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Packages\\manifest.json",
+    "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.2d.sprite@053a968eab56",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.2d.sprite@053a968eab56",
       "fingerprint": "053a968eab56ad54f8322d007733b1e173abaae1",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -22,7 +22,7 @@
     "com.unity.multiplayer.center@1.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.multiplayer.center@b860850997d0",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.multiplayer.center@b860850997d0",
       "fingerprint": "b860850997d026668b04ee7b71cb731ee193804c",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.1",
@@ -32,17 +32,27 @@
     "com.unity.ugui@2.5.0": {
       "name": "com.unity.ugui",
       "displayName": "uGUI",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.ugui@4f9b15fd1386",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.ugui@4f9b15fd1386",
       "fingerprint": "4f9b15fd13868276678fd95a5e0f7c029c70616a",
       "editorCompatibility": "6000.5.0a1",
       "version": "2.5.0",
       "source": "builtin",
       "testable": false
     },
+    "com.unity.visualscripting@1.9.11": {
+      "name": "com.unity.visualscripting",
+      "displayName": "Visual Scripting",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.visualscripting@8bed5ad90189",
+      "fingerprint": "8bed5ad901895f10b7d0e524c4738cab14cef692",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.9.11",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -50,7 +60,7 @@
     "com.unity.modules.adaptiveperformance@1.0.0": {
       "name": "com.unity.modules.adaptiveperformance",
       "displayName": "Adaptive Performance",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -58,7 +68,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.ai",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -66,7 +76,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -74,7 +84,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.animation",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -82,7 +92,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -90,7 +100,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.audio",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -98,7 +108,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.cloth",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -106,7 +116,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.director",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -114,7 +124,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -122,7 +132,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.imgui",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -130,7 +140,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -138,7 +148,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -146,7 +156,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.physics",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -154,7 +164,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -162,7 +172,7 @@
     "com.unity.modules.physicscore2d@1.0.0": {
       "name": "com.unity.modules.physicscore2d",
       "displayName": "Physics Core 2D",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.physicscore2d",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.physicscore2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -170,7 +180,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -178,7 +188,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.terrain",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -186,7 +196,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -194,7 +204,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -202,7 +212,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.ui",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -210,7 +220,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.uielements",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,7 +228,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.umbra",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -226,7 +236,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -234,7 +244,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,7 +252,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +260,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +268,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +276,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +284,7 @@
     "com.unity.modules.vectorgraphics@1.0.0": {
       "name": "com.unity.modules.vectorgraphics",
       "displayName": "Vector Graphics",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +292,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +300,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.video",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +308,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.wind",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +316,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.xr",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +324,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +332,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Users\\Oswel Cardona\\OneDrive\\Documents\\GitHub\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Users\\Nicole-David\\scape-from-utp-juego\\Library\\PackageCache\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
