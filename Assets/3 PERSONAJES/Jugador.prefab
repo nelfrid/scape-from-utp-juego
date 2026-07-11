@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 700874296594951475}
   - component: {fileID: 1779823267751799155}
   - component: {fileID: 2592278811517763030}
-  - component: {fileID: 3494667950117575664}
+  - component: {fileID: 3994653180436276922}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 25
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2366923746022097473, guid: 47163464d0cc6ae47ae340d50f96199b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ControladorJugador
   velocidadCaminar: 2
   velocidadCorrer: 6
-  fuerzaSalto: 10
+  fuerzaSalto: 9.5
   tiempoParaCorrer: 0.8
 --- !u!95 &2592278811517763030
 Animator:
@@ -199,7 +199,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3494667950117575664
+--- !u!114 &3994653180436276922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,4 +211,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 003952e0612f8f4438a39635645d0af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaludJugador
-  vidaMaxima: 150
+  vidaMaxima: 100

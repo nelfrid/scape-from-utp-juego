@@ -4,7 +4,7 @@ public class ScorePorTiempo : MonoBehaviour
 {
     [Header("Configuración del Tiempo")]
     public float tiempoParaPunto = 1f; // Cuántos segundos deben pasar para ganar puntos
-    public int puntosPorCiclo = 10;    // Cuántos puntos ganas cada vez que se cumple el tiempo
+    public int currentScore = 10;    // Cuántos puntos ganas cada vez que se cumple el tiempo
 
     private float timer = 0f;          // Nuestro cronómetro interno
     public bool elJuegoEstaActivo = true; // Control para detener el puntaje si pierdes
@@ -21,7 +21,7 @@ public class ScorePorTiempo : MonoBehaviour
             if (timer >= tiempoParaPunto)
             {
                 // 4. Mandamos a sumar los puntos al ScoreManager que hicimos antes
-                ScoreManager.Instance.AddPoints(puntosPorCiclo);
+                ScoreManager.Instance.AddPoints(currentScore);
 
                 // 5. Reiniciamos el cronómetro a 0 para que vuelva a contar el siguiente segundo
                 timer = 0f;

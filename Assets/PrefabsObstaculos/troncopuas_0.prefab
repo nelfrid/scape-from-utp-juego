@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5126038775663924533}
   - component: {fileID: 3699820543361657148}
   - component: {fileID: -4456816049320872642}
-  - component: {fileID: 4393562248237594910}
+  - component: {fileID: 8124605233907645531}
   m_Layer: 0
   m_Name: troncopuas_0
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.3, y: 0.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 25
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6462715709458158475, guid: f7ceb58bcc3ba6147a9291c5e4b20c19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Pendulo
   anguloMaximo: 45
   velocidad: 2
---- !u!114 &4393562248237594910
+--- !u!114 &8124605233907645531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

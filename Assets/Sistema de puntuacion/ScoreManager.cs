@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     [Header("Configuración de UI")]
     [SerializeField] private TextMeshProUGUI scoreText; // Arrastra tu texto aquí en el Inspector
 
-    private int currentScore = 0;
+    public int currentScore = 0;
 
     private void Awake()
     {

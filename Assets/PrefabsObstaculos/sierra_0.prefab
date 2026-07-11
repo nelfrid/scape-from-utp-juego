@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1957409782541299863}
   - component: {fileID: 8580129918699181006}
   - component: {fileID: 4925666319263883143}
-  - component: {fileID: 6796100262579807867}
+  - component: {fileID: 3838520455722327183}
   m_Layer: 0
   m_Name: sierra_0
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 25
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6904451780962833152, guid: 537401119a536b54a8ee311ef2428ac8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SierraGiratoria
   velocidadRotacion: 300
   girarAmanecillas: 0
---- !u!114 &6796100262579807867
+--- !u!114 &3838520455722327183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

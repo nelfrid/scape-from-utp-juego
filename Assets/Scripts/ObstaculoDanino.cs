@@ -20,4 +20,14 @@ public class ObstaculoDanino : MonoBehaviour
             }
         }
     }
+
+    void Update()
+    {
+        
+        if (Camera.main != null && transform.position.x < Camera.main.transform.position.x - 12f)
+        {
+            // Si la cámara ya pasó el obstáculo por 12 unidades, lo destruimos para liberar memoria
+            Destroy(gameObject);
+        }
+    }
 }

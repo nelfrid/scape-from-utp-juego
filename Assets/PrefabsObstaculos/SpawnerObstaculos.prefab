@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6353392771626541104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2483772032100229418}
+  - component: {fileID: 7640170946620899247}
+  - component: {fileID: 4831920522064964711}
+  - component: {fileID: 7852647883151444946}
+  - component: {fileID: 2230918387100378523}
+  m_Layer: 0
+  m_Name: SpawnerObstaculos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2483772032100229418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353392771626541104}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.27148, y: -1.15712, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7640170946620899247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353392771626541104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542b4bcf67ed5fa47b00ecf40d015ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GeneradorObstaculos
+  prefabsObstaculos:
+  - {fileID: 4642713021410343037, guid: cf64f34d3fcb83840b260dbe95bcc1f5, type: 3}
+  - {fileID: 1791549847067736349, guid: 2749e00524edd9d43a0961654955b704, type: 3}
+  tiempoInicial: 22
+  tiempoEntreSpawns: 28
+  distanciaAdelanteCamara: 12
+  alturaSueloY: 3
+--- !u!114 &4831920522064964711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353392771626541104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542b4bcf67ed5fa47b00ecf40d015ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GeneradorObstaculos
+  prefabsObstaculos:
+  - {fileID: 9193332950801635631, guid: a16a58de9f219c2469fcb05759bbb4df, type: 3}
+  tiempoInicial: 12
+  tiempoEntreSpawns: 18
+  distanciaAdelanteCamara: 12
+  alturaSueloY: -5
+--- !u!114 &7852647883151444946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353392771626541104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542b4bcf67ed5fa47b00ecf40d015ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GeneradorObstaculos
+  prefabsObstaculos:
+  - {fileID: 8056327818384387143, guid: 4aae5b6916695f043a5d1e091eb793fb, type: 3}
+  tiempoInicial: 2
+  tiempoEntreSpawns: 8
+  distanciaAdelanteCamara: 12
+  alturaSueloY: -4
+--- !u!114 &2230918387100378523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353392771626541104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542b4bcf67ed5fa47b00ecf40d015ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GeneradorObstaculos
+  prefabsObstaculos:
+  - {fileID: 7393690005085592732, guid: b7e3268df6e39e646adb7c9f802267df, type: 3}
+  tiempoInicial: 32
+  tiempoEntreSpawns: 38
+  distanciaAdelanteCamara: 12
+  alturaSueloY: 7.5
