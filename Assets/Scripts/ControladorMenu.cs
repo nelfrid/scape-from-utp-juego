@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ControladorMenu : MonoBehaviour
 {
-    private string escenaProxima = "Nivel 1"; // Nombre de la escena a cargar
+    private string escenaProxima = "SeleccionDePersonajes"; // Nombre de la escena a cargar
     [Header("Iconos de Sonido")]
     public Image componentImageButtonSonido;
     public Sprite iconoSonidoActivo;
@@ -14,12 +14,12 @@ public class ControladorMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            IniciarJuego();
+            SiguienteEscena();
         }
 
     }
 
-    void IniciarJuego()
+    void SiguienteEscena()
     {
         SceneManager.LoadScene(escenaProxima);
     }
