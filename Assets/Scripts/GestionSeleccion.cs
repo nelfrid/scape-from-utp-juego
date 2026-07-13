@@ -58,21 +58,23 @@ public class GestionSeleccion : MonoBehaviour
     }
     public void IniciarJuego()
     {
-        
-        if(personajeSeleccion == 0)
+
+        if (personajeSeleccion == 0)
         {
-            
-            if(panelError != null)
+
+            if (panelError != null)
             {
                 panelError.SetActive(true);
             }
-            else
-            {
-                StartCoroutine(EsperarYCambiarEscena());
-
-            }
 
         }
+        else
+        {
+            StartCoroutine(EsperarYCambiarEscena());
+
+        }
+
+        
         
     }
 

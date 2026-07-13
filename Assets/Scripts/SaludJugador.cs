@@ -2,18 +2,19 @@ using UnityEngine;
 
 public class SaludJugador : MonoBehaviour
 {
-    public int vidaMaxima = 100;
-    private int vidaActual;
-
-    // 1. Declaramos la variable para el Animator del personaje
-    private Animator anim;
+    [Header("Configuración de Vida")]
+    [SerializeField] private int vidaMaxima = 100;
+    [SerializeField] private int vidaActual;
+    private Animator miAnimator;
+    public bool isDead = false;
+    [SerializeField] private Sprite spriteMuerte;
+    private SpriteRenderer sr;
 
     void Start()
     {
         vidaActual = vidaMaxima;
-
-        // 2. Buscamos y guardamos el componente Animator al iniciar el juego
-        anim = GetComponent<Animator>();
+        miAnimator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>(); // Inicializamos el SpriteRenderer
     }
 
     public void RecibirDaño(int cantidad)
@@ -27,44 +28,54 @@ public class SaludJugador : MonoBehaviour
         }
     }
 
-    void Morir()
+    public void Morir()
     {
-        Debug.Log("El jugador ha muerto.");
+        if (isDead) return;
+        isDead = true;
 
-        // 3. Activamos el Trigger en el Animator para que empiece la animación
-        // Asegúrate de cambiar "Muerte" por el nombre exacto que le pusieron al parámetro en Unity
-        if (anim != null)
+        // 1. Detener físicas
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            anim.SetTrigger("Muerte");
+            rb.linearVelocity = Vector2.zero;
+            rb.bodyType = RigidbodyType2D.Kinematic;
         }
 
-        // 4. Detenemos los puntos llamando al script de ScorePorTiempo que está en el GameManager
+        // 2. SOLUCIÓN INFALIBLE: Cambiar sprite y apagar Animator
+        if (spriteMuerte != null && sr != null)
+        {
+            sr.sprite = spriteMuerte; // Cambia el dibujo al frame muerto
+        }
+
+        if (miAnimator != null)
+        {
+            miAnimator.enabled = false; // Apagamos el Animator para que no intente volver a Idle
+        }
+
+        GetComponent<Collider2D>().enabled = false;
+
+        // Llamar a sistemas externos
         ScorePorTiempo scoreTiempo = FindAnyObjectByType<ScorePorTiempo>();
-        if (scoreTiempo != null)
-        {
-            scoreTiempo.DetenerPuntaje();
-        }
+        if (scoreTiempo != null) scoreTiempo.DetenerPuntaje();
 
         MovimientoCamara cam = FindAnyObjectByType<MovimientoCamara>();
-        if (cam != null)
+        if (cam != null) cam.DetenerCamara();
+
+        ControladorDespuesDeMorir gestor = FindAnyObjectByType<ControladorDespuesDeMorir>();
+        if (gestor != null)
         {
-            cam.DetenerCamara();
+            gestor.ActivarModoMuerte();
         }
     }
 
+    // Chequeo de pantalla (se queda aquí en Salud)
     void Update()
     {
-        // Evaluamos la posición del jugador respecto a la cámara principal
         if (Camera.main != null && vidaActual > 0)
         {
-            Vector3 posicionEnPantalla = Camera.main.WorldToViewportPoint(transform.position);
-
-            // Si la posición X es menor que 0, significa que el jugador se salió por la izquierda de la pantalla
-            if (posicionEnPantalla.x < 0f)
+            Vector3 posEnPantalla = Camera.main.WorldToViewportPoint(transform.position);
+            if (posEnPantalla.x < 0f)
             {
-                Debug.Log("¡La cámara consumió al jugador!");
-
-                // Forzamos que la vida llegue a 0 inmediatamente
                 vidaActual = 0;
                 Morir();
             }
